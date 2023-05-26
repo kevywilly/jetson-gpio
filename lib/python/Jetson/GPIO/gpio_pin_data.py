@@ -530,6 +530,7 @@ def get_compatibles(compatible_path):
 
 
 def get_model():
+    return JETSON_NANO
     compatible_path = '/proc/device-tree/compatible'
 
     # get model info from compatible_path
